@@ -1,0 +1,25 @@
+.topTabBar {
+
+}
+
+.topTabBar__list {
+    max-width: 300px;
+}
+
+.topTabBar__remove-btn{
+    background: none;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.topTabBar__tabIcon {
+    font-size: 0.8rem;
+    margin-right: 0.2rem;
+}
+
+.topTabBar__remove-btn:hover {
+    color: var(--oj-private-icon-color-hover);
+    background-color: var(--oj-private-icon-bg-color-hover);
+    border-color: var(--oj-private-icon-border-color-hover);
+}

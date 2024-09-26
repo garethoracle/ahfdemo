@@ -1,0 +1,35 @@
+:root {
+    --timeline-filters-gap: 0.2rem;
+}
+
+.timelineSection__plots-dropdown {
+    max-width: 18.75rem !important;
+}
+
+.timelineSection__filters-label {
+    display: block;
+}
+
+.timelineSection__filters__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--timeline-filters-gap);
+    align-items: start;
+    margin-bottom: 1rem;
+}
+
+.timelineSection__copy-btn {
+    margin-left: auto;
+}
+
+.timelineSection__table {
+    width: 100%;
+    margin: auto;
+    max-height: 80vh;
+    font-size: 0.85rem;
+}
+
+.timelineSection__inputSearch {
+    align-self: center;
+    margin-left: auto;
+}

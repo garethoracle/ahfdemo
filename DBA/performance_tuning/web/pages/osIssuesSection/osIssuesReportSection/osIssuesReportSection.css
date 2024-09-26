@@ -1,0 +1,58 @@
+:root {
+    --max-height-table-inline: 35rem;
+}
+
+.osIssuesReport__CollapsibleContentHostDescription {
+    font-family: inherit;
+}
+
+.osIssuesReport__shortDescription__container {
+    display: flex;
+    width: 100%;
+    font-size: inherit;
+    font-weight: 500;
+    gap: 0.2rem;
+}
+
+.osIssuesReport__nodes, 
+.osIssuesReport__shortDescription-nodes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+}
+.osIssuesReport__shortDescription-nodes {
+    margin-left: auto;
+}
+
+.osReportDetailsTable__filters  {
+    justify-content: space-between;
+}
+
+.osIssuesReportCollapsibleContent__table:not(:last-child) {
+    margin-bottom: 0.4rem;
+}
+
+.osIssuesReportCollapsibleContent__table {
+    max-height: var(--max-height-table-inline);
+}
+
+.osReportCollapsibleDetails__table {
+    max-height: var(--max-height-table-inline);
+}
+
+.osReportDetailsTable__filters-time, 
+.osReportDetailsTable__filters-dynamic, 
+.osReportDetailsTable__filters {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.OsIssuesReportSection__drawer-table {
+    max-width: 95%;
+    max-height: var(--max-height-table-inline);
+}
+
+.OsIssuesReportSection__drawer-table:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+

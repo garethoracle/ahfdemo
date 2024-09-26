@@ -1,0 +1,32 @@
+:root {
+    --commandNode-padding: 0.5rem;
+    --command-font-size: 1.1rem;
+    --command-icon-padding-horizontal: 0.4rem;
+}
+.commandNode {
+    position: relative;
+    padding: var(--commandNode-padding); 
+}
+
+.commandNode__copyButton {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    min-width: auto;
+    min-height: auto;
+    height: auto;
+    width: auto;
+    padding: 0 var(--command-icon-padding-horizontal);
+    opacity: 0;
+}
+
+.commandNode:hover > .commandNode__copyButton,
+.commandNode__copyButton.oj-focus {
+    opacity: 1;
+}
+
+.commandNode_copyButton-icon {
+    font-size: var(--command-font-size);
+    padding: var(--command-icon-padding);
+}

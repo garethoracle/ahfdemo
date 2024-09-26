@@ -1,0 +1,174 @@
+.bestPracticeIssues__container {
+    --number-lines-wrapped: 6;
+    --line-height: 1.2em
+}
+
+.bestPracticeIssues__container {
+    position: relative;
+}
+
+.bestPracticeIssues__dialog-btn {
+    z-index: 100;
+    position: fixed;
+    top: 5rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    right: 0.5rem
+}
+
+.bestPracticeIssues__dialog {
+    max-width: 1400px;
+}
+
+.bestPracticeIssues__settings-collapsible {
+    width: 350px;
+}
+
+.bestPracticeIssues__messages {
+    width: 100%;
+    border: 0.5px solid grey;
+    background-color: white;
+}
+
+.bestPracticeIssues__plots__container {
+    display: flex;
+    align-items: center;
+}
+
+.bestPracticeIssues__plots-health {
+    width: 30%;
+}
+
+.bestPracticeIssues__plots-bar {
+    width: 70%;
+}
+
+.bestPracticeIssues__filters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.2rem;
+    gap: 0.2rem;
+}
+
+.bestPracticeIssues__filters-select {
+    width: 17rem;
+}
+
+.bestPracticeIssues__filters-jump {
+    margin-left: auto;
+}
+
+.bestPracticeIssues__filters-text{
+    width: 25rem;
+}
+
+.bestPracticeIssues__filters-btn-all {
+    align-self: stretch;
+    height: auto;
+}
+
+.bestPracticeIssues__section-title {
+    font-weight: 600 !important;
+}
+
+.bestPracticeIssues__section-description {
+    margin-top: 0;
+    font-family: inherit;
+}
+
+.bestPracticeIssues__collapsible-check {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: inherit;
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bestPracticeIssues__subsection-checkId {
+    max-width: 25rem;
+}
+
+.bestPracticeIssues__subsection__header-item,
+.bestPracticeIssues__subsection-checkStatus {
+    max-width: 8rem;
+}
+
+.bestPracticeIssues__subsection__header-checkName {
+    display: block;
+}
+
+.bestPracticeIssues__subsection-checkId, 
+.bestPracticeIssues__subsection__header-item,
+.bestPracticeIssues__subsection-checkStatus, 
+.bestPracticeIssues__subsection__header-checkName {
+    flex: auto;
+    text-align: left;
+}
+
+.bestPracticeIssuesSubsectionListView__link,
+.bestPracticeIssuesSubsectionListView__recommendation {
+    font-size: 0.8rem;
+    min-width: 10rem;
+}
+
+.bestPracticeIssuesSubsectionListView__link-icon {
+    font-size: 1rem;
+}
+
+.bestPracticeIssuesSubsectionListView__recommendation {
+    min-height: 40%;
+    max-height: 20rem;
+    overflow: auto;
+}
+
+.bestPracticeIssues__consoleOutput {
+    overflow: hidden;
+    line-height: var(--line-height);
+    max-height: 100%;
+}
+
+.bestPracticeIssues__consoleOutput.unwrap {
+    max-height: calc(var(--number-lines-wrapped) * var(--line-height));
+}
+
+.bestPracticeIssues__separator  {
+    margin: 1rem;
+}
+
+.bestPracticeIssues__separator-heading,
+.bestPracticeIssues__separator {
+    display: flex;
+    align-items: center;
+}
+
+.bestPracticeIssues__separator::before,
+.bestPracticeIssues__separator::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #007db9;
+}
+
+.bestPracticeIssues__separator-heading {
+    border-radius: 10px;
+    background-color: #e4f1f7;
+    color: #007db9;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+}
+
+@media only screen and (max-width: 1023.9px) {
+
+    .bestPracticeIssues__plots__container {
+        flex-direction: column;
+    }
+
+    .bestPracticeIssues__plots-health {
+        width: 100%;
+    }
+
+    .bestPracticeIssues__plots-bar {
+        width: 100%;
+    }
+}

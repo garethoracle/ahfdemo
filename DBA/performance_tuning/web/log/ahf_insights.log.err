@@ -1,0 +1,80 @@
+[2024-08-30 12:19:54,089.089] [Pid: 68966] [Tid: 8644452928] [  ERROR] File logger_module.py, line 68 - Encountered exception.
+[2024-08-30 12:19:54,089.089] [Pid: 68966] [Tid: 8644452928] [  ERROR] File logger_module.py, line 69 - File: bestPracticeAnalyzer.py, LineNo: 1333, Type: <class 'AttributeError'>, Exception: 'str' object has no attribute 'get'
+[2024-08-30 12:19:54,089.089] [Pid: 68966] [Tid: 8644452928] [  ERROR] File logger_module.py, line 70 - Full traceback:
+Traceback (most recent call last):
+  File "/Users/aaryjosh/Downloads/AHFI_249/oracle/analyzer/bestPractice/bestPracticeAnalyzer.py", line 1333, in get_context
+    health_score = data.get("healthScoreDescription", "Unavailable").get("healthScore", "Unavailable")
+AttributeError: 'str' object has no attribute 'get'
+
+[2024-08-30 12:19:54,095.095] [Pid: 68966] [Tid: 8644452928] [  ERROR] File managementServerAnalyzer.py, line 334 - No management server alert files available as part of input.
+[2024-08-30 12:19:54,096.096] [Pid: 68966] [Tid: 8644452928] [  ERROR] File managementServerAnalyzer.py, line 614 - No management server metric files available as part of input.
+[2024-08-30 12:19:54,297.297] [Pid: 68966] [Tid: 8644452928] [  ERROR] File patchAnalyzer.py, line 347 - No Patch Data Avaialable as part of input.
+[2024-08-30 12:20:00,235.235] [Pid: 68966] [Tid: 8644452928] [  ERROR] File additionalReportsAnalyzer.py, line 294 - No reports.json file available as part of input.
+[2024-08-30 12:20:00,240.240] [Pid: 68966] [Tid: 8644452928] [  ERROR] File common_utils.py, line 508 - Error prettyfyin timestamp. ISO string too short
+[2024-08-30 12:20:19,620.620] [Pid: 69043] [Tid: 8672539200] [  ERROR] File storageServerAnalyzer.py, line 144 - No storageServer.json file available as part of topology.
+[2024-08-30 12:20:19,620.620] [Pid: 69043] [Tid: 8672539200] [  ERROR] File fabricSwitchAnalyzer.py, line 86 - No fabricSwitches.json file available as part of topology.
+[2024-08-30 12:20:19,624.624] [Pid: 69043] [Tid: 8672539200] [  ERROR] File storageServerAnalyzer.py, line 144 - No storageServer.json file available as part of topology.
+[2024-08-30 12:20:19,625.625] [Pid: 69043] [Tid: 8672539200] [  ERROR] File fabricSwitchAnalyzer.py, line 86 - No fabricSwitches.json file available as part of topology.
+[2024-08-30 12:21:21,853.853] [Pid: 69043] [Tid: 8672539200] [  ERROR] File managementServerAnalyzer.py, line 334 - No management server alert files available as part of input.
+[2024-08-30 12:21:21,853.853] [Pid: 69043] [Tid: 8672539200] [  ERROR] File managementServerAnalyzer.py, line 614 - No management server metric files available as part of input.
+[2024-09-02 12:53:33,056.056] [Pid: 4015] [Tid: 8646738496] [  ERROR] File storageServerAnalyzer.py, line 144 - No storageServer.json file available as part of topology.
+[2024-09-02 12:53:33,057.057] [Pid: 4015] [Tid: 8646738496] [  ERROR] File fabricSwitchAnalyzer.py, line 86 - No fabricSwitches.json file available as part of topology.
+[2024-09-02 12:53:33,062.062] [Pid: 4015] [Tid: 8646738496] [  ERROR] File storageServerAnalyzer.py, line 144 - No storageServer.json file available as part of topology.
+[2024-09-02 12:53:33,064.064] [Pid: 4015] [Tid: 8646738496] [  ERROR] File fabricSwitchAnalyzer.py, line 86 - No fabricSwitches.json file available as part of topology.
+[2024-09-02 12:53:48,143.143] [Pid: 4015] [Tid: 8646738496] [  ERROR] File managementServerAnalyzer.py, line 334 - No management server alert files available as part of input.
+[2024-09-02 12:53:48,143.143] [Pid: 4015] [Tid: 8646738496] [  ERROR] File managementServerAnalyzer.py, line 614 - No management server metric files available as part of input.
+[2024-09-02 12:53:49,211.211] [Pid: 4015] [Tid: 8646738496] [  ERROR] File additionalReportsAnalyzer.py, line 294 - No reports.json file available as part of input.
+[2024-09-03 15:14:44,493.493] [Pid: 25153] [Tid: 8629994048] [  ERROR] File dbMetricAnalyzer.py, line 1854 - CHA file /Users/aaryjosh/Downloads/New_collections/collection_Fri_Aug_23_18_28_32_EDT_2024_node_all/input_collection/clusterwide/cha/cha_insights.json not available as part of input.
+[2024-09-05 13:59:04,643.643] [Pid: 54046] [Tid: 8665145920] [  ERROR] File bestPracticeAnalyzer.py, line 1041 - No bestPractice.json file available as part of input.
+[2024-09-05 14:56:13,683.683] [Pid: 55893] [Tid: 8630731328] [  ERROR] File storageServerAnalyzer.py, line 144 - No storageServer.json file available as part of topology.
+[2024-09-05 14:56:13,683.683] [Pid: 55893] [Tid: 8630731328] [  ERROR] File fabricSwitchAnalyzer.py, line 86 - No fabricSwitches.json file available as part of topology.
+[2024-09-05 14:56:13,689.689] [Pid: 55893] [Tid: 8630731328] [  ERROR] File storageServerAnalyzer.py, line 144 - No storageServer.json file available as part of topology.
+[2024-09-05 14:56:13,690.690] [Pid: 55893] [Tid: 8630731328] [  ERROR] File fabricSwitchAnalyzer.py, line 86 - No fabricSwitches.json file available as part of topology.
+[2024-09-05 14:56:19,134.134] [Pid: 55893] [Tid: 8630731328] [  ERROR] File logger_module.py, line 68 - Encountered exception at get_section_records_using_chm_parser..
+[2024-09-05 14:56:19,134.134] [Pid: 55893] [Tid: 8630731328] [  ERROR] File logger_module.py, line 69 - File: operatingSystemAnalyzer.py, LineNo: 505, Type: <class 'chmutils.exceptions.CHMMetricsFileNotFound'>, Exception: No CHM/SHM metrics files found in specified directory[/Users/aaryjosh/Desktop/GuidedResIPC/scenario_high_CPU_Steal/input_collection/ugmuwedodb02/os/raw_data].
+[2024-09-05 14:56:19,135.135] [Pid: 55893] [Tid: 8630731328] [  ERROR] File logger_module.py, line 70 - Full traceback:
+Traceback (most recent call last):
+  File "/Users/aaryjosh/Downloads/AHFI_249/oracle/analyzer/operatingSystem/operatingSystemAnalyzer.py", line 505, in get_section_records_using_chm_parser
+    chmmetricsparserobj = CHMMetricsParser(host_os_raw_directory, report_start_time, report_end_time, header=False, resolution_interval=cls.CHM_READING_RESOLUTION, interesting_timeranges=list_problematic_time_range)
+  File "/Users/aaryjosh/Desktop/AHFI_Releases/AHFI_RELEASE_237/chm/bin/chm_chmutils.zip/chmutils/metrics/reader.py", line 124, in __init__
+    raise CHMMetricsFileNotFound(inputDataDir)
+chmutils.exceptions.CHMMetricsFileNotFound: No CHM/SHM metrics files found in specified directory[/Users/aaryjosh/Desktop/GuidedResIPC/scenario_high_CPU_Steal/input_collection/ugmuwedodb02/os/raw_data].
+
+[2024-09-05 14:56:28,138.138] [Pid: 55893] [Tid: 8630731328] [  ERROR] File logger_module.py, line 68 - Encountered exception.
+[2024-09-05 14:56:28,138.138] [Pid: 55893] [Tid: 8630731328] [  ERROR] File logger_module.py, line 69 - File: bestPracticeAnalyzer.py, LineNo: 1333, Type: <class 'AttributeError'>, Exception: 'str' object has no attribute 'get'
+[2024-09-05 14:56:28,139.139] [Pid: 55893] [Tid: 8630731328] [  ERROR] File logger_module.py, line 70 - Full traceback:
+Traceback (most recent call last):
+  File "/Users/aaryjosh/Downloads/AHFI_249/oracle/analyzer/bestPractice/bestPracticeAnalyzer.py", line 1333, in get_context
+    health_score = data.get("healthScoreDescription", "Unavailable").get("healthScore", "Unavailable")
+AttributeError: 'str' object has no attribute 'get'
+
+[2024-09-05 14:56:28,151.151] [Pid: 55893] [Tid: 8630731328] [  ERROR] File managementServerAnalyzer.py, line 334 - No management server alert files available as part of input.
+[2024-09-05 14:56:28,151.151] [Pid: 55893] [Tid: 8630731328] [  ERROR] File managementServerAnalyzer.py, line 614 - No management server metric files available as part of input.
+[2024-09-05 14:56:28,152.152] [Pid: 55893] [Tid: 8630731328] [  ERROR] File rpmAnalyzer.py, line 205 - No rpm files available as part of input.
+[2024-09-05 14:56:28,153.153] [Pid: 55893] [Tid: 8630731328] [  ERROR] File logger_module.py, line 68 - Encountered exception.
+[2024-09-05 14:56:28,153.153] [Pid: 55893] [Tid: 8630731328] [  ERROR] File logger_module.py, line 69 - File: dbParameterAnalyzer.py, LineNo: 214, Type: <class 'FileNotFoundError'>, Exception: [Errno 2] No such file or directory: '/Users/aaryjosh/Desktop/GuidedResIPC/scenario_high_CPU_Steal/input_collection/clusterwide/dbParameters'
+[2024-09-05 14:56:28,153.153] [Pid: 55893] [Tid: 8630731328] [  ERROR] File logger_module.py, line 70 - Full traceback:
+Traceback (most recent call last):
+  File "/Users/aaryjosh/Downloads/AHFI_249/oracle/analyzer/dbParameter/dbParameterAnalyzer.py", line 214, in get_context
+    normal_parameter_file_map, hidden_parameter_file_map = cls.get_db_specific_parameter_file()
+  File "/Users/aaryjosh/Downloads/AHFI_249/oracle/analyzer/dbParameter/dbParameterAnalyzer.py", line 65, in get_db_specific_parameter_file
+    for short_file_name in os.listdir(input_directory_path):
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/aaryjosh/Desktop/GuidedResIPC/scenario_high_CPU_Steal/input_collection/clusterwide/dbParameters'
+
+[2024-09-05 14:56:28,153.153] [Pid: 55893] [Tid: 8630731328] [  ERROR] File kernelParameterAnalyzer.py, line 166 - No kernel parameter files available as part of input.
+[2024-09-05 14:56:28,417.417] [Pid: 55893] [Tid: 8630731328] [  ERROR] File dbMetricAnalyzer.py, line 1854 - CHA file /Users/aaryjosh/Desktop/GuidedResIPC/scenario_high_CPU_Steal/input_collection/clusterwide/cha/cha_insights.json not available as part of input.
+[2024-09-05 14:56:28,418.418] [Pid: 55893] [Tid: 8630731328] [  ERROR] File additionalReportsAnalyzer.py, line 294 - No reports.json file available as part of input.
+[2024-09-05 14:56:28,522.522] [Pid: 55893] [Tid: 8630731328] [  ERROR] File chmAdapter.py, line 236 - No condition to evaluate..
+[2024-09-05 14:56:28,563.563] [Pid: 55893] [Tid: 8630731328] [  ERROR] File chmAdapter.py, line 236 - No condition to evaluate..
+[2024-09-05 14:56:28,602.602] [Pid: 55893] [Tid: 8630731328] [  ERROR] File chmAdapter.py, line 236 - No condition to evaluate..
+[2024-09-05 14:56:28,980.980] [Pid: 55893] [Tid: 8630731328] [  ERROR] File chmAdapter.py, line 236 - No condition to evaluate..
+[2024-09-05 14:56:29,022.022] [Pid: 55893] [Tid: 8630731328] [  ERROR] File chmAdapter.py, line 236 - No condition to evaluate..
+[2024-09-05 14:56:29,106.106] [Pid: 55893] [Tid: 8630731328] [  ERROR] File chmAdapter.py, line 236 - No condition to evaluate..
+[2024-09-05 14:56:29,440.440] [Pid: 55893] [Tid: 8630731328] [  ERROR] File chmAdapter.py, line 236 - No condition to evaluate..
+[2024-09-05 14:56:29,525.525] [Pid: 55893] [Tid: 8630731328] [  ERROR] File chmAdapter.py, line 236 - No condition to evaluate..
+[2024-09-05 14:56:29,565.565] [Pid: 55893] [Tid: 8630731328] [  ERROR] File chmAdapter.py, line 236 - No condition to evaluate..
+[2024-09-06 12:10:55,471.471] [Pid: 73875] [Tid: 8629469760] [  ERROR] File dbMetricAnalyzer.py, line 1854 - CHA file /Users/aaryjosh/Downloads/insights_Adittional Report-ROCE/input_collection/clusterwide/cha/cha_insights.json not available as part of input.
+[2024-09-06 12:15:20,509.509] [Pid: 74091] [Tid: 8632824384] [  ERROR] File dbMetricAnalyzer.py, line 1854 - CHA file /Users/aaryjosh/Downloads/insights_Adittional Report-ROCE/input_collection/clusterwide/cha/cha_insights.json not available as part of input.
+[2024-09-06 12:29:57,079.079] [Pid: 74337] [Tid: 8606712384] [  ERROR] File dbMetricAnalyzer.py, line 1854 - CHA file /Users/aaryjosh/Downloads/insights_Adittional Report-ROCE/input_collection/clusterwide/cha/cha_insights.json not available as part of input.
+[2024-09-06 12:30:47,333.333] [Pid: 74418] [Tid: 8678994496] [  ERROR] File dbMetricAnalyzer.py, line 1854 - CHA file /Users/aaryjosh/Downloads/insights_Adittional Report-ROCE/input_collection/clusterwide/cha/cha_insights.json not available as part of input.
+[2024-09-06 12:31:55,275.275] [Pid: 74512] [Tid: 8638911040] [  ERROR] File dbMetricAnalyzer.py, line 1854 - CHA file /Users/aaryjosh/Downloads/insights_Adittional Report-ROCE/input_collection/clusterwide/cha/cha_insights.json not available as part of input.

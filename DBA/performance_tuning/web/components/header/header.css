@@ -1,0 +1,22 @@
+.header__logo {
+    color: red;
+}
+
+.header__title {
+    font-size: 1rem;
+    padding: 0.3rem 0.3rem;
+    font-weight: bold;
+}
+
+.header__details {
+    display: flex;
+    align-items: center;
+}
+
+.header__details >span:not(:last-child) {
+    margin-right: 0.3rem;
+}
+
+.header__details >span:not(:first-child) {
+    margin-left: 0.3rem;
+}

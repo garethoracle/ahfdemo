@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1023.9px) {
+
+    .bestPracticeIssues__plots-health {
+        width: 100%;
+    }
+
+    .bestPracticeIssues__plots-bar {
+        width: 100%;
+    }
+}

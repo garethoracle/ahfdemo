@@ -1,0 +1,29 @@
+.menuCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 20%;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0;
+}
+
+.menuCard__icon-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuCard__count {
+    font-size: xxx-large;
+    margin-right: 0.5rem;
+}
+
+.menuCard__title {
+    font-weight: bold !important;
+}
+
+.menuCard__subtitle {
+    font-size: 1rem;
+}

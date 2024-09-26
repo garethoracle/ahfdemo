@@ -1,0 +1,1 @@
+define(["require","exports","preact/jsx-runtime","ojs/ojprogress-circle"],(function(require,e,r){"use strict";Object.defineProperty(e,"__esModule",{value:!0});e.default=()=>(0,r.jsx)("div",{class:"loadingScreen",children:(0,r.jsx)("oj-progress-circle",{size:"lg",value:-1})})}));

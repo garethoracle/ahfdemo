@@ -1,0 +1,14 @@
+.clusterSummary__listView__container {
+    padding: var(--oj-collection-list-cell-padding-vertical) var(--oj-list-view-item-padding-horizontal);
+}
+
+.clusterSummary__listView__name__container {
+    width: 200px;
+}
+
+.clusterSummary__listView__content__container {
+    display: flex;
+    align-items: start;
+    gap: 0.20rem;
+    flex: 1 0;
+}

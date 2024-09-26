@@ -1,0 +1,308 @@
+{
+  "AnalysisBeginTS": "2024-08-29T16:29:55",
+  "AnalysisEndTS": "2024-08-29T17:29:50",
+  "SysConfig": {
+    "Description": "Contains system configuration information for the analysis window",
+    "Hdr": {
+      "Metric Name": "Metric Value"
+    },
+    "Data": {
+      "MTU": {
+        "bondeth0(PUBLIC)": 1500,
+        "re0(CLUSTER_INTERCONNECT,ASM)": 2300,
+        "re1(CLUSTER_INTERCONNECT,ASM)": 2300,
+        "eth0(N/A)": 1500,
+        "lo(N/A)": 65536
+      },
+      "Nics[#]": 5,
+      "NumCores[#]": 92,
+      "Disks[#]": 41,
+      "Hostname": "scaqal03adm06vm01",
+      "SysFdLimit[#]": 13631488,
+      "OSName": "Linux",
+      "CPUChipSet": "Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40GHz",
+      "TotalMemory[KB]": 608378768,
+      "TotalSwap[KB]": 16777212,
+      "HugePageTotal[#]": 60959,
+      "HugePageSize[KB]": 2048,
+      "TimeZone": "America/Los_Angeles",
+      "GIVersion": "21.7.0.0.0"
+    }
+  },
+  "SysResourceStats": {
+    "Description": "Contains stats(min,avg,max,count) of various metrics over the entire analysis window",
+    "Hdr": {
+      "Metric": [
+        "Min",
+        "Avg",
+        "Max",
+        "Count"
+      ]
+    },
+    "Data": {
+      "CPUUsage[%]": [
+        1.11,
+        2.06,
+        8.33,
+        720
+      ],
+      "CPUSystem[%]": [
+        0.39,
+        0.61,
+        4.52,
+        720
+      ],
+      "CPUSteal[%]": [
+        0.04,
+        0.11,
+        0.24,
+        720
+      ],
+      "CPUIOWait[%]": [
+        0,
+        0.01,
+        0.91,
+        720
+      ],
+      "CPUQLen[#]": [
+        0,
+        0.0,
+        0,
+        720
+      ],
+      "LoadAvg1": [
+        0.32,
+        1.74,
+        4.21,
+        720
+      ],
+      "LoadAvg5": [
+        0.86,
+        1.63,
+        3.02,
+        720
+      ],
+      "LoadAvg15": [
+        1.1,
+        1.5,
+        2.16,
+        720
+      ],
+      "AvailableMem[KB]": [
+        449832884,
+        451144694.63,
+        451323520,
+        720
+      ],
+      "FreeMem[KB]": [
+        430487852,
+        431952114.94,
+        432248360,
+        720
+      ],
+      "SwapFree[KB]": [
+        16777212,
+        16777212.0,
+        16777212,
+        720
+      ],
+      "IORead[KB/s]": [
+        8,
+        131.9,
+        23781,
+        720
+      ],
+      "IOWrite[KB/s]": [
+        54,
+        1619.38,
+        90351,
+        720
+      ],
+      "NumIOs[#/s]": [
+        36,
+        84.73,
+        555,
+        720
+      ],
+      "RxTotal[KB/s]": [
+        112.03,
+        165.09,
+        4694.46,
+        720
+      ],
+      "TxTotal[KB/s]": [
+        102.61,
+        235.91,
+        36566.43,
+        720
+      ],
+      "NicErrs[#/s]": [
+        0,
+        0.0,
+        0,
+        720
+      ],
+      "NumProcs[#]": [
+        1867,
+        1892.68,
+        2015,
+        720
+      ],
+      "ProcsBlocked[#]": [
+        0,
+        0.0,
+        1,
+        720
+      ],
+      "HugePageFree[#]": [
+        15,
+        15.0,
+        15,
+        720
+      ]
+    }
+  },
+  "FindingsTimeLine": {
+    "Description": "Contains a timeline of all the findings specific to the analysis window",
+    "Hdr": [
+      [
+        "* indicates contiguous time ranges(i.e. Current Start Time = Previous End Time)",
+        "Start Time",
+        "End Time",
+        "List of findings for this time range"
+      ]
+    ],
+    "Data": [
+      [
+        " ",
+        "2024-08-29T16:49:50",
+        "2024-08-29T16:49:55",
+        10.0,
+        [
+          "IPAddrErr"
+        ],
+        []
+      ],
+      [
+        " ",
+        "2024-08-29T16:57:35",
+        "2024-08-29T16:57:40",
+        10.0,
+        [
+          "IPAddrErr"
+        ],
+        []
+      ],
+      [
+        " ",
+        "2024-08-29T17:00:50",
+        "2024-08-29T17:00:55",
+        10.0,
+        [
+          "IPAddrErr"
+        ],
+        []
+      ],
+      [
+        " ",
+        "2024-08-29T17:03:25",
+        "2024-08-29T17:03:30",
+        10.0,
+        [
+          "IPAddrErr"
+        ],
+        []
+      ],
+      [
+        " ",
+        "2024-08-29T17:05:05",
+        "2024-08-29T17:05:10",
+        10.0,
+        [
+          "IPAddrErr"
+        ],
+        []
+      ],
+      [
+        " ",
+        "2024-08-29T17:06:30",
+        "2024-08-29T17:06:35",
+        10.0,
+        [
+          "IPAddrErr"
+        ],
+        []
+      ],
+      [
+        " ",
+        "2024-08-29T17:07:35",
+        "2024-08-29T17:07:40",
+        10.0,
+        [
+          "IPAddrErr"
+        ],
+        []
+      ],
+      [
+        " ",
+        "2024-08-29T17:11:30",
+        "2024-08-29T17:11:40",
+        15.0,
+        [
+          "IPAddrErr"
+        ],
+        []
+      ],
+      [
+        " ",
+        "2024-08-29T17:14:20",
+        "2024-08-29T17:14:25",
+        10.0,
+        [
+          "IPAddrErr"
+        ],
+        []
+      ],
+      [
+        " ",
+        "2024-08-29T17:14:35",
+        "2024-08-29T17:14:40",
+        10.0,
+        [
+          "IPAddrErr"
+        ],
+        []
+      ],
+      [
+        " ",
+        "2024-08-29T17:17:35",
+        "2024-08-29T17:17:40",
+        10.0,
+        [
+          "IPAddrErr"
+        ],
+        []
+      ],
+      [
+        " ",
+        "2024-08-29T17:20:35",
+        "2024-08-29T17:20:40",
+        10.0,
+        [
+          "IPAddrErr"
+        ],
+        []
+      ],
+      [
+        " ",
+        "2024-08-29T17:21:35",
+        "2024-08-29T17:21:50",
+        20.0,
+        [
+          "DiskWaitHigh"
+        ],
+        []
+      ]
+    ]
+  }
+}

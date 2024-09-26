@@ -1,0 +1,25 @@
+
+.managementServerMetrics__select-node {
+    display: block;
+    margin-left: auto;
+}
+
+.managementServerAlertsTabularFormat__controls {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.managementServerRowRenderer__alert-details {
+    margin-left: auto;
+}
+
+.managementServerRowRenderer__action-label {
+    flex: 1;
+    max-width: 7rem;
+}
+
+.managementServerRowRenderer__alertMessage {
+    flex: 1;
+}

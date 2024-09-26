@@ -1,0 +1,19 @@
+.clusterAsmDetails__container {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.clusterAsmDetails__item {
+    flex: 1 0 50%;
+    text-align: center;
+}
+
+.clusterAsmDetails__title {
+    font-weight: bold;
+}
+
+.clusterAsmDetails__usedPercent {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}

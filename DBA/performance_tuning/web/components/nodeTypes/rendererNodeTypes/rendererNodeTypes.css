@@ -1,0 +1,14 @@
+:root {
+   --rendererNodeTypes-margin-bottom: 0.2rem;
+   --rendererNodeTypes-paragraphs-margin-bottom: 1rem 
+}
+
+div.rendererNodeTypes-list__element > *:not(:last-child),
+.rendererNodeTypes-list__element:not(:last-child) {
+    margin-bottom: calc(var(--rendererNodeTypes-margin-bottom) + var(--command-font-size) + var(--command-icon-padding-horizontal)); 
+}
+
+.rendererNodes-paragraph__container:not(:last-child) {
+    margin-bottom: var(--rendererNodeTypes-paragraphs-margin-bottom);
+}
+

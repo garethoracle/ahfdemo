@@ -1,0 +1,5 @@
+.attributeTargetTableRow__target {
+    display: flex;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+}

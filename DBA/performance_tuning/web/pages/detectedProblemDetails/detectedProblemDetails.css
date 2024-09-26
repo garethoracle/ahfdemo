@@ -1,0 +1,24 @@
+:root {
+    --detectedProblems-margin-bottom-evidence: 0.8rem;
+}
+
+.detectedProblemDetails__title {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.detectedProblemDetails__copySection-btn {
+    margin-left: auto;
+}
+
+.detectedProblemDetails__evidence-paragraph {
+    margin: 0;
+    margin-left: 1.2rem;
+    padding: var(oj-core-spacing-1x) 0;
+}
+
+.detectedProblemDetails__evidence:not(:last-child) {
+    margin-bottom: 0.8rem;
+}
+

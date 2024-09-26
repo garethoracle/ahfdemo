@@ -1,0 +1,15 @@
+.usedPercentageBar {
+    width: 100%;
+}
+
+.usedPercentageBar.danger [class*='ProgressBarStyles_valueStyle'] {
+    background-color: var(--oj-core-danger-1) !important;
+}
+
+.usedPercentageBar.warning [class*='ProgressBarStyles_valueStyle'] {
+    background-color: var(--oj-core-warning-1) !important;
+}
+
+.usedPercentageBar.success [role^="progressbar"] [class*='ProgressBarStyles_valueStyle'] {
+    background-color: var(--oj-core-success-1) !important;
+}

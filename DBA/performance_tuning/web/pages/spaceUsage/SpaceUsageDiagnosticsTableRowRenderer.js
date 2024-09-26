@@ -1,0 +1,1 @@
+define(["require","exports","preact/jsx-runtime","ojs/ojrowexpander"],(function(require,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0});e.default=e=>(0,t.jsxs)("tr",{children:[(0,t.jsxs)("td",{children:[(0,t.jsx)("oj-row-expander",{context:e}),e.item.data.path]}),(0,t.jsx)("td",{children:e.item.data.size})]})}));

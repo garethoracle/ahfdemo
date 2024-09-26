@@ -1,0 +1,1 @@
+define(["require","exports","preact/jsx-runtime"],(function(require,e,s){"use strict";Object.defineProperty(e,"__esModule",{value:!0});e.default=({status:e="info",text:t,class:a})=>(0,s.jsx)("div",{class:`badgeNotification ${a}`,children:(0,s.jsx)("span",{class:`oj-badge oj-badge-subtle oj-badge-${e}`,children:t})})}));

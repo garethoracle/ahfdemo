@@ -1,0 +1,204 @@
+/*
+    Document   : override
+    Created on : <date>
+    Author     : <author>
+    Description:
+        This is where any of your application specific styles should be included
+*/
+
+@import '../components/header/header.css';
+@import '../components/loadingScreen/loadingScreen.css';
+@import '../components/topTabBar/topTabBar.css';
+@import '../components/badgeNotification/badgeNotification.css';
+@import '../components/usedPercentageBar/usedPercentageBar.css';
+@import '../components/scrollToTopButton/scrollToTop.css';
+@import '../components/topologyBaseAttributesSummary/topologyBaseAttributesSummary.css';
+@import '../components/nodeTypes/commandNode/commandNode.css';
+@import '../components/snippets/loadingCircularSnippet/loadingCircularSnippet.css';
+@import '../components/deferCollapsible/deferCollapsible.css';
+@import '../components/nodeTypes/rendererNodeTypes/rendererNodeTypes.css';
+@import '../components/attributeTargetTable/attributeTargetTable.css';
+@import '../components/splitter/splitter.css';
+@import '../components/listParameters/listParameters.css';
+
+
+@import '../pages/home/home.css';
+@import '../pages/databases/databasesSection.css';
+@import '../pages/home/homeNavigation/menuCard/menuCard.css';
+@import '../pages/timelineSection/timelineSection.css';
+@import '../pages/cluster/clusterSummary/clusterSummary.css';
+@import '../pages/cluster/clusterResources/clusterResources.css';
+@import '../pages/cluster/clusterASMDetails/clusterASMDetails.css';
+@import '../pages/detectedProblemDetails/detectedProblemDetails.css';
+@import '../pages/home/homeNavigation/navigationMenu/navigationMenu.css';
+@import '../pages/osIssuesSection/osMetricsSection/osMetricsSection.css';
+@import '../pages/osIssuesSection/osIssuesReportSection/osIssuesReportSection.css';
+@import '../pages/osIssuesSection/osIssuesConfigurationSection/osIssuesConfigurationSection.css';
+@import '../pages/bestPracticeIssues/bestPracticeIssues.css';
+@import '../pages/systemChange/systemChange.css';
+@import '../pages/managementServer/managementServer.css';
+@import '../pages/patchAnalysis/patchAnalysis.css';
+@import '../pages/dbMetric/dbMetric.css';
+@import '../pages/dataGuard/dataGuard.css';
+
+html {
+    font-size: 0.875em;
+}
+
+:root {
+    --time-filter-max-width: 16.5rem;
+    --comboBox-filter-max-width: 16.5rem;
+
+    /* --screenSmallMinWidth:     0;
+    --screenSmallMaxWidth:     599.9px;
+    --screenMediumMinWidth:    600px;
+    --screenMediumMaxWidth:    1023.9px;
+    --screenLargeMinWidth:     1024px;
+    --screenLargeMaxWidth:     1439.9px;
+    --screenXlargeMinWidth:    1440px; */
+}
+
+.demo-oracle-icon {
+    width:137px;
+    height:18px
+}
+
+.demo-oracle-icon:before {
+    content:url("images/oracle_logo.svg")
+}
+
+html:not([dir="rtl"]) .demo-oracle-icon {
+    padding-right:4px
+}
+
+html[dir="rtl"] .demo-oracle-icon {
+    padding-left:4px
+}
+
+.demo-oracle-icon:before {
+    display:inline
+}
+
+.demo-appheader-avatar {
+    width:24px;
+    height:24px
+}
+
+.demo-appheader-avatar:before {
+    content:url("images/avatar_24px.png")
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .demo-appheader-avatar:before {
+        content:url("images/avatar_24px_2x.png");
+        -webkit-transform:translate(-25%, -25%) scale(0.5);
+        transform:translate(-25%, -25%) scale(0.5)
+    }
+}
+
+.app__container {
+    flex-direction: column;
+    max-width: 1500px;
+    min-height: 100vh;
+    display: flex;
+}
+
+.preformatted-text,
+.command-block {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.command-block {
+    border: 1px solid #b8b7b7; 
+    padding: 10px;
+}
+
+.router {
+    flex-grow: 1;
+}
+
+.select-text {
+    user-select: text;
+}
+
+/* Table styles */
+.table-word-wrap,
+.table-world-wrap {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.border-table {
+    border: 0.5px solid grey;
+    background-color: white;
+    user-select: text;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.table-align-text-center * {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-align-header-center .oj-table-column-header {
+    justify-content: center;
+}
+
+.table__scroll {
+    margin: auto;
+    max-height: 50vh;
+}
+
+/* Drawer styles */
+.detailsDrawer {
+    width: 80vw !important;
+}
+
+
+.detailsDrawer__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.detailsDrawer__body {
+    padding: 2rem;
+}
+
+/* Helper styles */
+.text-align-center {
+    text-align: center !important;
+}
+
+.margin-left-auto {
+    margin-left: auto;
+}
+
+.scroll-margin-top {
+    scroll-margin-top: 1rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.reset-paragraph-styles {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-gap {
+    gap: 0.3rem;
+}
+
+.time_filter {
+    max-width: var(--time-filter-max-width) !important;
+}
+
+.filters-comboBox-many {
+    min-width: 20rem;
+    max-width: var(--comboBox-filter-max-width) !important;
+}

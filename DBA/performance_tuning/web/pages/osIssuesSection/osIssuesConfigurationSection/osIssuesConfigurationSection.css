@@ -1,0 +1,23 @@
+.osIssuesConfiguration {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    row-gap: 1rem;
+}
+
+.osIssuesConfiguration > *:nth-child(2n+1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.osIssuesConfiguration__targets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+}
+
+.osIssuesConfiguration__table__container {
+    margin-left: 10%;
+}

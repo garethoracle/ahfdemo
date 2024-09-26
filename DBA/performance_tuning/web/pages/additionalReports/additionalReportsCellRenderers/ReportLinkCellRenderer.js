@@ -1,0 +1,1 @@
+define(["require","exports","preact/jsx-runtime"],(function(require,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0});e.default=e=>{const r=e.data;return(0,t.jsx)("a",{target:"__blank",href:r.path,children:r.name})}}));

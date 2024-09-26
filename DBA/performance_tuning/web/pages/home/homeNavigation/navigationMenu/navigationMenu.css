@@ -1,0 +1,7 @@
+.navigationMenu__sections {
+    border: 2px solid lightblue;
+    box-sizing: border-box;
+    background-color: var(--oj-panel-bg-color);
+    border-radius: var(--oj-panel-border-radius);
+    padding: 0.5rem;
+}

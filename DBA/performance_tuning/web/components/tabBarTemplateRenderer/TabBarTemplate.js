@@ -1,0 +1,1 @@
+define(["require","exports","preact/jsx-runtime"],(function(require,e,a){"use strict";Object.defineProperty(e,"__esModule",{value:!0});e.default=e=>(0,a.jsx)("li",{children:(0,a.jsx)("a",{href:"#","aria-controls":`${e.data.name} Tab Panel`,id:`${e.data.id}_${e.data.name}-tab`,children:e.data.name})},e.data.id)}));

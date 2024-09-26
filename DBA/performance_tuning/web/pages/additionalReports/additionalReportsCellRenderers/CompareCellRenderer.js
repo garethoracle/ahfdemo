@@ -1,0 +1,1 @@
+define(["require","exports","preact/jsx-runtime"],(function(require,e,s){"use strict";Object.defineProperty(e,"__esModule",{value:!0});e.default=e=>{const r=e.data;return(0,s.jsxs)("div",{class:"oj-flex flex-gap",children:[(0,s.jsx)("span",{children:r.startTime}),"-",(0,s.jsx)("span",{children:r.endTime})]})}}));

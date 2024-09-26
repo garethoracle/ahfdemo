@@ -1,0 +1,20 @@
+.topologyBaseAttributesSummary__serverList__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.topologyBaseAttributesSummary__serverList__label {
+    max-width: 15rem;
+}
+
+.topologyBaseAttributesSummary__serverList {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+}
+
+.topologyBaseAttributesSummary__copyButton {
+    margin-left: auto;
+}

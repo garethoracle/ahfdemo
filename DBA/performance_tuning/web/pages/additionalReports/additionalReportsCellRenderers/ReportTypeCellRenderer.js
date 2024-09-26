@@ -1,0 +1,1 @@
+define(["require","exports","preact/jsx-runtime"],(function(require,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0});e.default=e=>{const s=e.data;let a="default";return"good"===s?a="success":"bad"===s&&(a="danger"),(0,t.jsx)("span",{class:`oj-badge oj-badge-subtle oj-badge-${a}`,children:s})}}));

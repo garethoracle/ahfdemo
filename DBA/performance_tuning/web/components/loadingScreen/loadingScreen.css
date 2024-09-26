@@ -1,0 +1,19 @@
+.loadingScreen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10000;
+}
+
+.loadingScreen::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: #666;
+    opacity: 0.4;
+}
